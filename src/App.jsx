@@ -1,3 +1,5 @@
+import React from 'react';
+import './App.css';
 
 function App() {
 
@@ -31,8 +33,15 @@ function App() {
           </form>
         </section>
 
-
       </nav>
+
+<footer className="footer">
+  <ion-icon name="logo-whatsapp"></ion-icon> 
+  <ion-icon name="logo-instagram"></ion-icon>
+  <ion-icon name="logo-linkedin"></ion-icon>
+</footer>
+
+
     </div>
 
   )
