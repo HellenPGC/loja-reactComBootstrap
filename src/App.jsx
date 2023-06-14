@@ -32,17 +32,56 @@ function App() {
 </div>
           </form>
         </section>
-
       </nav>
+
+        {/*produtos da vitrine*/}
+      <section className="card">
+  <img src="https://m.media-amazon.com/images/I/71ZkBNvhwvL._AC_SX679_.jpg" className="fone"/>
+  <div className="card-body">
+    <h5 className="card-title">Fone Bluetooth</h5>
+    <p>Conforto e compatibilidade com todos os dispositivos</p>
+    <a href="#" className="btn btn-primary">COMPRAR</a>
+  </div>
+</section>
+
+
+<section className="card">
+  <img src="https://m.media-amazon.com/images/I/71JB6hM6Z6L._AC_SY450_.jpg" className="alexia"/>
+  <div className="card-body">
+    <h5 className="card-title">Echo Dot 5ª geração</h5>
+    <p>Som de alta e pronta para deixar sua casa mais inteligente</p>
+    <a href="#" className="btn btn-primary">COMPRAR</a>
+  </div>
+</section>
+
+
+<section className="card">
+  <img src="https://m.media-amazon.com/images/I/71V-W1ItTqL._AC_SX569_.jpg" className="teclado"/>
+  <div className="card-body">
+    <h5 className="card-title">Teclado Sem Fio Dobravel</h5>
+    <p>Compativel com celulares e notebooks</p>
+    <a href="#" className="btn btn-primary">COMPRAR</a>
+  </div>
+</section>
+
+
+<section className="card">
+  <img src="https://m.media-amazon.com/images/I/31XT96SfbkL._AC_.jpg" className="caneca"/>
+  <div className="card-body">
+    <h5 className="card-title">Caneca DEV</h5>
+    <p>Caneca de porcelana para apaixonados por códigos</p>
+    <a href="#" className="btn btn-primary">COMPRAR</a>
+  </div>
+</section>
+
 
 <footer className="footer">
   <ion-icon name="logo-whatsapp"></ion-icon> 
   <ion-icon name="logo-instagram"></ion-icon>
   <ion-icon name="logo-linkedin"></ion-icon>
 </footer>
-
-
     </div>
+
 
   )
 }
